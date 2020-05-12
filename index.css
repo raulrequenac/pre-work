@@ -1,0 +1,109 @@
+* {
+  color: gray;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: lavender;
+  padding: 2rem;
+}
+
+section {
+  margin: 1rem;
+}
+
+a {
+  color: deeppink;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+  color: deeppink;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+ul {
+  padding-left: 1rem;
+}
+
+li {
+  list-style-type: none;
+  position: relative;
+  line-height: 0;
+  border-bottom: 2px dotted gray;
+}
+
+li:before {
+  content: "\2023 \0020";
+  display: block;
+  position: absolute;
+  left: -1rem;
+  top: .3rem;
+  color: deeppink;
+}
+
+.content {
+  display: flex;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: .5rem 2rem;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.44);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.44);
+}
+
+.logo-container {
+  padding: 3rem 5rem;
+}
+
+.logo {
+  line-height: 0;
+  text-align: center;
+  width: fit-content;
+}
+
+.logo h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  font-family: serif;
+}
+
+.logo h3 {
+  align-self: center;
+}
+
+.left-indented {
+  padding-left: 10rem;
+}
+
+.right-idented {
+  padding-right: 10rem;
+}
+
+.logo b {
+  font-weight: 100;
+  color: deeppink;
+}
